@@ -49,8 +49,33 @@ main {
     height: 100px;
     width: calc((1144px - 60px) / 3);
     display: flex;
+    background-color: #0f0e17;
 }
 
 .card .photo img {
     height: 100%;
+}
+
+.card .info ul {
+    height: 100%;
+    color: white;
+    margin-left: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card .info .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card .info .job {
+    text-transform: capitalize;
+}
+
+.card .info .e-mail a {
+    text-decoration: none;
+    color: #00c6f3;
 }
