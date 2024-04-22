@@ -6,3 +6,18 @@ RESET
     padding: 0;
     box-sizing: border-box;
 }
+
+/*****
+BODY
+*****/
+body {
+    font-family: "Fredoka", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin: 40px 0;
+    text-align: center;
+    color: #e53170;
+}
