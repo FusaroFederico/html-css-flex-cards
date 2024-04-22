@@ -37,3 +37,15 @@ main {
 .description {
     text-align: center;
 }
+
+.members {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.members .card {
+    height: 100px;
+    width: calc((1144px - 60px) / 3);
+}
