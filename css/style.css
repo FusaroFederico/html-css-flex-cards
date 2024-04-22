@@ -15,9 +15,25 @@ body {
     font-style: normal;
 }
 
+/*******
+HEADER
+*******/
 h1 {
     text-transform: capitalize;
     margin: 40px 0;
     text-align: center;
     color: #e53170;
+}
+
+/******
+MAIN
+******/
+main {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 1144px;
+}
+
+.description {
+    text-align: center;
 }
