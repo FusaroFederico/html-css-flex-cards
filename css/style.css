@@ -48,4 +48,9 @@ main {
 .members .card {
     height: 100px;
     width: calc((1144px - 60px) / 3);
+    display: flex;
+}
+
+.card .photo img {
+    height: 100%;
 }
